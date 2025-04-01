@@ -1,0 +1,139 @@
+/* MOBILE  ->col */
+@media screen and (max-width: 767px) {
+    nav {
+        background-color: rgb(255, 255, 255) !important;
+        border-style: inset;
+        font-family: "pelak";
+        padding: 0;
+    }
+
+    nav button {
+        width: 40px;
+        height: 40px;
+        padding: 2px !important;
+    }
+
+    .logo1 {
+        width: 50px;
+        height: 50px;
+    }
+
+    nav h1 {
+
+        font-size: small;
+        margin-top: 15px;
+    }
+
+    .navbar-nav {
+        margin-top: 9px;
+        margin-right: 15px;
+    }
+
+
+    .navbar-nav a {
+
+        font-size: small;
+    }
+
+    .navbar-nav a:hover {
+        color: #55AD9B !important;
+    }
+
+    .carousel-inner {
+        margin-top: 80px;
+        height: 180px;
+        border-radius: 0px;
+        background: #ffffff;
+        box-shadow: 5px 5px 16px #808080,
+            -5px -5px 16px #ffffff;
+
+
+    }
+
+    .carousel-item {
+        height: 100% !important;
+    }
+}
+
+
+
+/* TABLET -> col-md */
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    nav {
+        background-color: rgb(255, 255, 255) !important;
+        border-style: inset;
+        font-family: "pelak";
+        padding: 0;
+    }
+
+    .logo1 {
+        width: 95px;
+        height: 95px;
+    }
+
+    nav h1 {
+
+        font-size: larger;
+        margin-top: 15px;
+    }
+
+    .navbar-nav {
+        margin-top: 9px;
+        margin-right: 15px;
+    }
+
+
+    .navbar-nav a {}
+
+    .navbar-nav a:hover {
+        color: #55AD9B !important;
+    }
+
+
+
+
+}
+
+
+
+/* DESKTOP -> col-lg*/
+@media screen and (min-width: 1024px) {
+    nav {
+        background-color: rgb(255, 255, 255) !important;
+        border-style: inset;
+        font-family: "pelak";
+    }
+
+    .logo1 {
+        width: 95px;
+        height: 95px;
+    }
+
+    nav h1 {
+
+        font-size: larger;
+        margin-top: 15px;
+    }
+
+    .navbar-nav {
+        margin-top: 9px;
+        margin-right: 15px;
+    }
+
+
+    .navbar-nav a {
+        margin-right: 10px;
+    }
+
+    .navbar-nav a:hover {
+        color: #55AD9B !important;
+    }
+
+}
+
+
+
+@font-face {
+    font-family: pelak;
+    src: url("../fonts/PelakFA-Regular.woff");
+}
